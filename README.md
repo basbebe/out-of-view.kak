@@ -6,6 +6,14 @@ Show out of view selections.
 
 Add [`out-of-view.kak`](rc/out-of-view.kak) to your autoload or source it manually.
 
+``` kak
+require-module out-of-view
+```
+
+## Usage
+
+Enable out-of-view with `out-of-view-enable`.
+
 ## Configuration
 
 ``` kak
@@ -14,7 +22,7 @@ set-option global modelinefmt '{yellow}%opt{out_of_view_status_line}{default} {{
 
 ## Commands
 
-- `out-of-view-enable`: Enable out-of-view.  Default.
+- `out-of-view-enable`: Enable out-of-view.
 - `out-of-view-disable`: Disable out-of-view.
 
 ## Options

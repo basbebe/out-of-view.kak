@@ -1,7 +1,3 @@
-hook global ModuleLoaded out-of-view %{
-  out-of-view-enable
-}
-
 provide-module out-of-view %{
   # Public
   declare-option -docstring 'Format' str out_of_view_format '↑ (%opt{out_of_view_selection_above_count}) | ↓ (%opt{out_of_view_selection_below_count})'
@@ -66,5 +62,3 @@ provide-module out-of-view %{
     }
   }
 }
-
-require-module out-of-view
